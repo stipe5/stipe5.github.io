@@ -1,13 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing page</title>
+    <title>Stjepan Goreta Portfolio</title>
 </head>
 <body>
-    <a href="zada-a-2-11-12-2023-stipe5/responsive/index.html">Responsive</a><br>
-    <a href="zada-a-2-11-12-2023-stipe5/standard/index.html">Standard</a><br>
-    <a href="izrada-web-stranice-web-shop-stipe5/index.html">WebSHOP-WIP</a><br>
+   <main class="kanit-regular container-fluid d-flex flex-column justify-content-center align-items-center"> 
+        <h1 class="my-4">Portfolio</h1>
+        <div class="container d-flex justify-content-between align-items-start mb-5">
+            <div class="w-50 container mt-5">
+                <img src="https://bairesdev.mo.cloudinary.net/blog/2023/08/What-Is-JavaScript-Used-For.jpg" alt="js" class="img-fluid rounded mt-5">
+            </div>
+            <div class="container w-50 d-flex flex-column justify-content-center align-items-center">
+                <h2 class="display-5 m-0 p-0 mb-5">Full Stack <span class="text-primary fw-bold">Developer</span></h2>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, voluptates aliquam veritatis necessitatibus vitae commodi nostrum porro dolores dicta quod, hic ab earum ratione libero quos! Quae nulla error molestiae blanditiis vel! Natus odit autem dolores ex culpa deserunt voluptates excepturi molestias quaerat pariatur assumenda beatae, minus nam! Est fugit nulla illum quibusdam totam deleniti asperiores esse non quisquam placeat eos accusantium ullam quasi, vitae obcaecati repellendus eligendi nihil explicabo hic. Impedit ab distinctio earum culpa ipsam, dolores iste in atque modi ducimus autem voluptates ut, eius deleniti? Aspernatur laborum aliquam nisi sequi labore ducimus nulla consequatur a, ipsum in asperiores. Mollitia.</p>
+                <div class="container d-flex justify-content-center align-items-center gap-5">
+                    <div>
+                        <i class="bi bi-envelope-at-fill text-primary me-1"></i>
+                        <a href="mailto: Stjepan.Goreta@gmail.com" class="text-reset text-decoration-none">Stjepan.Goreta@gmail.com</a>
+                    </div>
+                    <div>
+                        <i class="bi bi-telephone-fill text-primary me-1"></i>
+                        <a href="tel:0958312073" class="text-reset text-decoration-none">091 831 2073</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="w-100 mb-5">
+        <div class="container d-flex flex-column justify-content-center align-items-center mb-5">
+            <h2 class="display-5 m-0 p-0 mb-5 fw-bold">Projekti</h2>
+            <div class="container d-flex flex-row justify-content-center align-items-center gap-2">
+                <div class="col-6">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/stranica1.png" class="card-img-top" alt="Esports-portal">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">HeadShot Esports portal</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus at sunt perferendis distinctio velit quae sint reiciendis harum, architecto molestias?</p>
+                          <a href="zada-a-2-11-12-2023-stipe5/responsive/index.html" class="btn btn-primary">Otvori stranicu</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-6">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/stranica2.png" class="card-img-top" alt="Esports-portal">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">GameOn Webshop</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus at sunt perferendis distinctio velit quae sint reiciendis harum, architecto molestias?</p>
+                          <a href="izrada-web-stranice-web-shop-stipe5/index.html" class="btn btn-primary">Otvori stranicu</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+   </main>
+   <footer>
+    <div class="container-fluid bg-primary d-flex justify-content-center align-items-center p-3">
+        <span class="text-white">Izradio Stjepan Goreta - 2024</span>
+    </div>
+   </footer>
 </body>
 </html>
