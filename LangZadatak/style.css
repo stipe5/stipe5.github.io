@@ -1,0 +1,15 @@
+.main-text-color {
+    color: #56C6FF;
+}
+.drpdwn-btn {
+    background-image: linear-gradient(to bottom right, #56C6FF, #bbe8ff); 
+    color: white;
+    border: none;
+}
+.drpdwn-btn:hover {
+    border: none;
+    color: white;
+}
+main {
+    background-color: #56C6FF;
+}
